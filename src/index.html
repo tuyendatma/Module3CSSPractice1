@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành 1</title>
+    <style>
+        #test {
+            margin: 0 auto;
+            width: 800px;
+            border: 10px;
+            padding: 10px;
+            border-color: chartreuse aqua blue blueviolet;
+            border-style: solid;
+
+        }
+        p {
+            border: 3px dotted darkred;
+        }
+        /*#test p {*/
+        /*    margin-bottom: 80px;*/
+        /*}*/
+        #test #a {
+            margin-bottom: 20px;
+        }
+        #test #a + p {
+            margin-bottom: 40px;
+        }
+        #test #a + p +p {
+            margin-bottom: 80px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div id="test">
+    <p id="a">đây là hộp 1</p>
+    <p>đây là hộp 2</p>
+    <p>đây là hộp 3</p>
+</div>
+
+</body>
+</html>
